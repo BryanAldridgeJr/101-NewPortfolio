@@ -85,7 +85,9 @@ nav {
   h2 {
     font-size: 35pt;
   }
-  
+  button {
+    font-size: 20px;
+  }
 
 }
 
@@ -103,7 +105,9 @@ nav {
   h2 {
     font-size: 25pt;
   }
- 
+  button {
+    font-size: 15px;
+  }
 
 }
 
@@ -121,13 +125,15 @@ nav {
   h2 {
     font-size: 35pt;
   }
-
+  button {
+    font-size: 20px;
+  }
 }
 
 button {
   width: 55%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
+  /*font-size: 20px;*/
   border-radius: 25px;
   background: transparent;
   text-decoration: none;
