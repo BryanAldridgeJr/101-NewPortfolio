@@ -1,11 +1,11 @@
 body, html {
     margin: 0 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
   }
   
 
 html { 
-    background: url(cool-background.png) no-repeat center center fixed; 
+    background: url(htmlback.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -54,6 +54,9 @@ justify-content: space-around;
     h2 {
         font-size: 25pt;
     }
+    html {
+        padding: 5% 5%;
+    }
   
 }
 
@@ -71,6 +74,9 @@ justify-content: space-around;
     h2 {
         font-size: 20pt;
     }
+    html {
+        padding: 0 0 0 0;
+    }
 }
 
 
@@ -86,6 +92,9 @@ justify-content: space-around;
     }
     h2 {
         font-size: 25pt;
+    }
+    html {
+        padding: 8% 8%;
     }
 }  
 
@@ -111,16 +120,13 @@ body {
 }
 
 .pictures {
-    /*border: 2px solid black;*/
     padding: 2% 2% 2% 0;
     margin: 3%;
-    /*background-color: #ccc9c946;*/
-    background-color: rgb(216, 216, 216);
 }
 
 main {
     display: grid;
-
+    background-color:#c0bcbc91;
 }
 
 main img {
