@@ -176,8 +176,11 @@ main {
 
 main a {
   color: #0d547e;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
+h1,
 h2 {
   text-decoration: underline;
 }
