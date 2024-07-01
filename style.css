@@ -154,6 +154,22 @@ button {
     
 }
 
+.btn-link {
+  color: black;
+  text-decoration: none;
+}
+
+.btn-link:hover,
+.btn-link:active,
+.btn-link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.171);
+}
+
 .abtInfo p {
   font-size: 18pt;
 }
